@@ -1,0 +1,202 @@
+# Translation of Plugins - Statify - Stable (latest release) in German (Austria)
+# This file is distributed under the same license as the Plugins - Statify - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-08-08 08:12:34+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: de\n"
+"Project-Id-Version: Plugins - Statify - Stable (latest release)\n"
+
+#: inc/class-statify-settings.php:251
+msgid "Enabling this option excludes any views with referrers listed in the list of disallowed comment keys."
+msgstr "Das Aktivieren dieser Option schließt alle Aufrufe mit Verweisen aus der Liste der nicht erlaubte Kommentare vom Tracking aus."
+
+#: inc/class-statify-settings.php:147
+msgid "Disable the nonce check if the caching time is longer than the nonce time or you miss views due to 403 Forbidden errors."
+msgstr "Deaktiviere die Nonce-Prüfung, wenn die Cache-Zeit länger als die Nonce-Gültigkeitsdauer eingestellt ist oder Aufrufe aufgrund von 403 Forbidden Fehlern nicht gezählt werden."
+
+#: inc/class-statify-settings.php:146
+msgid "JavaScript based tracking is strongly recommended if caching or AMP is in use."
+msgstr "JavaScript-basiertes Tracking wird dringend empfohlen, wenn Caching oder AMP genutzt werden."
+
+#: inc/class-statify-settings.php:143
+msgid "JavaScript based tracking without nonce check"
+msgstr "JavaScript-basiertes Tracking ohne Nonce-Prüfung"
+
+#: inc/class-statify-settings.php:141
+msgid "JavaScript based tracking with nonce check"
+msgstr "JavaScript-basiertes Tracking mit Nonce-Prüfung"
+
+#: inc/class-statify-settings.php:139
+msgid "Default tracking"
+msgstr "Standard-Tracking"
+
+#: inc/class-statify-settings.php:102
+msgid "Disallowed referrers"
+msgstr "Nicht erlaubte Verweise"
+
+#: inc/class-statify-settings.php:46
+msgid "Tracking method"
+msgstr "Tracking-Methode"
+
+#: views/widget-front.php:118
+msgid "Refresh"
+msgstr "Aktualisieren"
+
+#: inc/class-statify-settings.php:359
+msgid "Statify Settings"
+msgstr "Statify-Einstellungen"
+
+#: inc/class-statify-settings.php:264
+msgid "Enabling this option excludes any views of logged-in users from tracking."
+msgstr "Das Aktivieren dieser Option schließt alle Aufrufe angemeldeter Benutzer vom Tracking aus."
+
+#: inc/class-statify-settings.php:263
+msgid "Yes"
+msgstr "Ja"
+
+#: inc/class-statify-settings.php:237
+msgid "The following options define cases in which a view will <strong>not</strong> be tracked."
+msgstr "Die folgenden Optionen definieren Fälle, in denen ein Aufruf <strong>nicht</strong> getrackt werden soll."
+
+#: inc/class-statify-settings.php:175
+msgid "The following options affect the admin dashboard widget."
+msgstr "Die folgenden Optionen beziehen sich auf das Dashboard-Widget im Administrationsbereich."
+
+#: inc/class-statify-settings.php:213 inc/class-statify-settings.php:225
+#: inc/class-statify-settings.php:250
+msgid "No"
+msgstr "Nein"
+
+#: inc/class-statify-settings.php:127 inc/class-statify-settings.php:189
+#: inc/class-statify-settings.php:201 inc/class-statify-settings.php:213
+#: inc/class-statify-settings.php:225 inc/class-statify-settings.php:250
+#: inc/class-statify-settings.php:263
+msgid "Default"
+msgstr "Standard"
+
+#: inc/class-statify-settings.php:110
+msgid "Logged in users"
+msgstr "Angemeldete Benutzer"
+
+#: inc/class-statify-settings.php:96
+msgid "Skip tracking for ..."
+msgstr "Tracking ausschließen für ..."
+
+#: inc/class-statify-settings.php:78
+msgid "Top lists only for today"
+msgstr "Bestenlisten nur für heute"
+
+#: inc/class-statify-settings.php:56
+msgid "Dashboard Widget"
+msgstr "Dashboard-Widget"
+
+#: inc/class-statify-settings.php:32
+msgid "Global settings"
+msgstr "Globale Einstellungen"
+
+#: views/widget-front.php:107
+msgid "since"
+msgstr "seit"
+
+#: views/widget-front.php:99
+msgid "today"
+msgstr "heute"
+
+#: views/widget-front.php:90
+msgid "Totals"
+msgstr "Gesamtanzahlen"
+
+#: views/widget-back.php:51 inc/class-statify-backend.php:43
+#: inc/class-statify-settings.php:370
+msgid "https://wordpress.org/support/plugin/statify"
+msgstr "https://wordpress.org/support/plugin/statify"
+
+#: views/widget-back.php:43 inc/class-statify-settings.php:86
+msgid "Show totals"
+msgstr "Zeige Gesamtanzahlen"
+
+#: views/widget-back.php:30 inc/class-statify-settings.php:62
+msgid "Period of data display in Dashboard"
+msgstr "Zeitraum für die Anzeige im Dashboard"
+
+#: views/widget-back.php:24
+msgid "Widget Settings"
+msgstr "Widget-Einstellungen"
+
+#: views/widget-back.php:18
+msgid "All Settings"
+msgstr "Alle Einstellungen"
+
+#: views/widget-back.php:16
+msgid "Open full settings page"
+msgstr "Seite mit allen Einstellungen öffnen"
+
+#: views/widget-back.php:49 inc/class-statify-settings.php:368
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#. Plugin URI of the plugin
+#: views/widget-back.php:49 inc/class-statify-settings.php:368
+msgid "https://wordpress.org/plugins/statify/"
+msgstr "https://de.wordpress.org/plugins/statify/"
+
+#: views/widget-back.php:51 inc/class-statify-backend.php:43
+#: inc/class-statify-settings.php:370
+msgid "Support"
+msgstr "Support"
+
+#: views/widget-back.php:50 inc/class-statify-backend.php:42
+#: inc/class-statify-settings.php:369
+msgid "Donate"
+msgstr "Spenden"
+
+#. Plugin Name of the plugin
+#: inc/class-statify-settings.php:342 inc/class-statify-settings.php:343
+msgid "Statify"
+msgstr "Statify"
+
+#: views/widget-front.php:64
+msgid "Top referers"
+msgstr "Beste Quellen"
+
+#: views/widget-front.php:38
+msgid "Top targets"
+msgstr "Beste Inhalte"
+
+#: views/widget-front.php:20
+msgid "No data available."
+msgstr "Keine Daten verfügbar."
+
+#: views/widget-back.php:39
+msgid "Entries in top lists only for today"
+msgstr "Einträge in der Bestenliste nur von heute"
+
+#: views/widget-back.php:35 inc/class-statify-settings.php:70
+msgid "Number of entries in top lists"
+msgstr "Anzahl der Einträge in der Bestenliste"
+
+#: inc/class-statify-settings.php:38
+msgid "Period of data saving"
+msgstr "Zeitraum der Datenaufbewahrung"
+
+#: views/widget-back.php:29 inc/class-statify-settings.php:126
+#: inc/class-statify-settings.php:188
+msgid "days"
+msgstr "Tage"
+
+#: inc/class-statify-dashboard.php:147
+msgid "Pageviews"
+msgstr "Aufrufe"
+
+#: inc/class-statify-dashboard.php:146
+msgid "Pageview"
+msgstr "Aufruf"
+
+#: inc/class-statify-backend.php:76
+msgid "Settings"
+msgstr "Einstellungen"

@@ -1,0 +1,73 @@
+.btn {
+  padding: 20px 40px;
+  @include text-style($font_family_2, 18px, 800, 1, $white, none);
+  letter-spacing: 0.3px;
+  text-shadow: 2px 2px 2px rgba($black, 0.1);
+  display: inline-block;
+  text-decoration: none;
+  white-space: normal;
+  border-radius: 0;
+  border: none;
+  -webkit-box-shadow: 0 17px 23px -12px rgba(67,103,199,0.8);
+  -moz-box-shadow: 0 17px 23px -12px rgba(67,103,199,0.8);
+  box-shadow: 0 17px 23px -12px rgba(67,103,199,0.8);
+
+  &:active,
+  &:focus,
+  &:hover {
+    -webkit-box-shadow: 0 17px 23px -12px rgba(67,103,199,1);
+    -moz-box-shadow: 0 17px 23px -12px rgba(67,103,199,1);
+    box-shadow: 0 17px 23px -12px rgba(67,103,199,1);
+    background: linear-gradient(180deg, rgba(255,172,61,1) 0%, rgba(255,146,0,1) 100%);
+    color: $white;
+  }
+}
+
+.btn-primary {
+  padding: 18px 30px;
+  @include text-style($font_family_2, 14px, 600, 1, $white, uppercase);
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  white-space: normal;
+  border-radius: 1px;
+  border: 0 !important;
+  box-shadow: none !important;
+  outline: none !important;
+
+  &:active,
+  &:focus,
+  &:hover {
+    color: $white;
+    background: darker(5%);
+    box-shadow: none;
+  }
+}
+
+.btn-secondary {
+  padding: 25px;
+  @include text-style($font_family_2, 16px, 700, 1, $white, uppercase);
+  display: inline-block;
+  text-decoration: none;
+  white-space: normal;
+  border: none;
+  width: 100%;
+  max-width: 250px;
+
+  &:active,
+  &:focus,
+  &:hover {
+    transition: all 1s;
+    box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.2);
+    background: lighten($theme_color4,5%);
+    color: $white;
+  }
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+  border: none;
+  box-shadow: none;
+  outline: none;
+}

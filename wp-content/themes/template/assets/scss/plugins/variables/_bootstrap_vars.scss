@@ -1,0 +1,27 @@
+$primary: $theme_color1;
+$secondary: $text_color; /*
+
+
+
+ */
+$border-radius: 0;
+$border-radius-lg: 0;
+$border-radius-sm: 0; /*
+
+
+
+ */
+$enable-caret: true;
+$enable-rounded: true;
+$enable-shadows: false;
+$enable-gradients: false;
+$enable-transitions: true;
+$enable-grid-classes: true;
+$enable-print-styles: true; /*
+
+
+
+ */
+$spacer: 20px;
+$spacers: ();
+$spacers: map-merge((0: 0, 1: ($spacer * .25), 2: ($spacer * .5), 3: $spacer, 4: ($spacer * 1.5), 5: ($spacer * 2), 6: $spacer * 3, 7: ($spacer * 4), 8: ($spacer * 5)), $spacers);

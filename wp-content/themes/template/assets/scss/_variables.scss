@@ -1,0 +1,50 @@
+$is_woocommerce: "no"; /*
+
+THEME COLORS
+
+*/
+$text_color: #2e2e2c;
+$theme_color1: #2e2e2c; //header-text-color
+$theme_color2: #fffc00; //titles
+$theme_color3: #063685; //home boxes title color
+$theme_color4: #172182; //blog category color
+$accent_color: #fffc00; //buttons background
+
+$yellow: $theme_color2;
+$yellow_bg: #f5f4c2;
+$white: #fff;
+$black: #000;
+
+$green_blue: #52bbab;
+$events_color: $green_blue;
+
+
+$indigo : #3e77d5;
+$light_blue: #7192ab;
+$purple: #7a599a;
+$photos_color : $purple;
+
+$fuchsia : #de4190;
+$videos_color : $light_blue;
+
+$red : #d41f39;
+$tickets_color : $red;
+$podcast_color : $yellow;
+
+$pink : #f17a7e;
+$green : #a5d300;
+$dark_green : #04984b;
+$blue : #5784bb;
+
+/*
+
+THEME FONTS
+
+*/
+$font_family_1: "DINNextLTPro", sans-serif;
+$font_family_2: "DINNextLTPro", sans-serif; /*
+
+MISC
+
+*/
+// $blue_gradient: linear-gradient(90deg, rgba(46,49,146,1.1) 0%, rgba(0,101,178,0.9) 45%, rgba(0,174,239,0.5) 100%);

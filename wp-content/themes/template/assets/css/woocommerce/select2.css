@@ -1,0 +1,55 @@
+/*
+Error: Invalid CSS after "...GradientType=0)": expected ";", was ")))"
+        on line 419 of scss/woocommerce/select2.scss
+
+414:   border: 1px solid #aaa;
+415:   border-radius: 4px;
+416:   outline: 0;
+417:   background-image: linear-gradient(to bottom, white 50%, #eeeeee 100%);
+418:   background-repeat: repeat-x;
+419:   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=  '#FFFFFFFF', endColorstr='#FFEEEEEE', GradientType=0))))
+420: }
+421: 
+422: .select2-container--classic .select2-selection--single:focus {
+423:   border: 1px solid #0073aa;
+424: }
+
+Backtrace:
+scss/woocommerce/select2.scss:419
+/var/lib/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:1278:in `expected'
+/var/lib/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:1208:in `expected'
+/var/lib/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:1203:in `tok!'
+/var/lib/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:804:in `block in try_declaration'
+/var/lib/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:1254:in `rethrow'
+/var/lib/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:809:in `try_declaration'
+/var/lib/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:732:in `declaration_or_ruleset'
+/var/lib/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:697:in `block_child'
+/var/lib/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:689:in `block_contents'
+/var/lib/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:678:in `block'
+/var/lib/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:670:in `ruleset'
+/var/lib/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:696:in `block_child'
+/var/lib/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:689:in `block_contents'
+/var/lib/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:137:in `stylesheet'
+/var/lib/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:41:in `parse'
+/var/lib/gems/2.5.0/gems/sass-3.5.6/lib/sass/engine.rb:414:in `_to_tree'
+/var/lib/gems/2.5.0/gems/sass-3.5.6/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/var/lib/gems/2.5.0/gems/sass-3.5.6/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/var/lib/gems/2.5.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+/var/lib/gems/2.5.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/var/lib/gems/2.5.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:209:in `each'
+/var/lib/gems/2.5.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/var/lib/gems/2.5.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
+/var/lib/gems/2.5.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:320:in `block in watch'
+/var/lib/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
+/var/lib/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
+/var/lib/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
+/var/lib/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
+/var/lib/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
+/var/lib/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
+/var/lib/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
+/var/lib/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...GradientType=0)\": expected \";\", was \")))\"\A         on line 419 of scss/woocommerce/select2.scss\A \A 414:   border: 1px solid #aaa;\A 415:   border-radius: 4px;\A 416:   outline: 0;\A 417:   background-image: linear-gradient(to bottom, white 50%, #eeeeee 100%);\A 418:   background-repeat: repeat-x;\A 419:   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=  '#FFFFFFFF', endColorstr='#FFEEEEEE', GradientType=0))))\A 420: }\A 421: \A 422: .select2-container--classic .select2-selection--single:focus {\A 423:   border: 1px solid #0073aa;\A 424: }"; }

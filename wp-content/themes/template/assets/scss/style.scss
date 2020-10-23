@@ -1,0 +1,302 @@
+@import "variables";
+@import "mixins";
+@import "plugins/plugins_dir";
+@import "base/base_dir";
+@import "layouts/layouts_dir";
+
+* {
+  -webkit-font-smoothing: antialiased;
+}
+
+.section_title {
+  h2 {
+    text-transform: uppercase;
+    color: $theme_color1;
+    line-height: 1;
+  }
+
+  h5 {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    line-height: 1;
+    font-weight: 500;
+  }
+
+  p {
+    margin-bottom: 5px;
+    color: $white;
+  }
+}
+
+.page_title {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.tip {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+
+.social_circles{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #EEE;
+
+  img{
+    width: 20px;
+    height: 20px;
+  }
+}
+
+
+
+
+.tag_category_names  {
+  margin-bottom: 15px;
+
+  a{
+      color: #fff;
+      padding: 5px;
+      top: 10px;
+      left: 10px;
+      padding: 6px 15px;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 1;
+      background: $green_blue;
+      display: inline-block;
+      margin-bottom: 5px;
+
+  }
+
+  &.red_bg{
+    a{
+      background: #d41f39;
+
+      &:hover {
+        background: darken(#d41f39,5%);
+      }
+    }
+  }
+
+  &.indigo_bg {
+    a{
+      background: $indigo;
+
+      &:hover {
+        background: darken($indigo,5%);
+      }
+    }
+  }
+
+  &.yellow_bg {
+    a{
+      background: #fffc00;
+		color: #000;
+
+      &:hover {
+        background: darken(#fffc00,5%);
+      }
+    }
+  }
+}
+
+
+
+.load_more_btn {
+  background: #000;
+  font-size: 14px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 20px;
+  max-width: 300px;
+  text-align: center;
+  display: block;
+  margin: 0 auto 30px;
+
+  &:hover {
+    background: lighten(#000,10%);
+    color: #fff;
+  }
+}
+
+
+.bordered_section {
+  border-top: 2px solid #e1e1e1;
+  border-bottom: 2px solid #e1e1e1;
+  padding: 30px 0;
+  margin: 40px 0;
+}
+
+.single_page_buttons {
+  .btn-primary {
+    padding: 14px;
+    min-width: 230px;
+    border-radius: 2px;
+  }
+}
+
+
+
+
+
+
+
+
+@media (max-width: 1200px) {}
+@media (max-width: 992px) {
+  .right_border_col{
+    border: none;
+  }
+  .article_area{
+    padding-left: 0;
+    .share_links{
+      position: initial;
+      .mashsb-buttons{
+        flex-direction: row;
+        justify-content: flex-start;
+      }
+    }
+  }
+
+  .filter_list {
+    margin-top: 30px;
+    margin-bottom: -20px;
+  }
+
+
+  .search_bar button {
+    border-radius: 50% !important;
+    width: 50px !important;
+    height: 50px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    font-size: 18px;
+    margin-left: 20px;
+  }
+
+  .events_page {
+    .container-fluid {
+      padding-left: 30px;
+      padding-right: 0;
+
+      .white_bg {
+        padding: 0 50px 0 20px;
+      }
+    }
+  }
+
+  .photos_page,
+  .videos_page {
+    .container-fluid {
+      padding-left: 0;
+      padding-right: 0;
+
+      .bg_black {
+        padding-left: 45px;
+      }
+
+      .grey_bg {
+        padding: 0 50px 0 20px;
+      }
+    }
+  }
+
+  .tickets_page,
+  .vouchers_page {
+    .container-fluid {
+      padding-left: 30px;
+      padding-right: 0;
+
+      .white_bg {
+        padding: 0 50px 0 40px;
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .left_sidebar {
+    max-width: 9999px;
+    margin: 0;
+    padding: 0 20px 20px;
+    margin-top: -40px;
+
+    & > h5 {
+      display: none;
+    }
+  }
+
+  .search_bar input {
+    background: none;
+
+    &:active,
+    &:focus,
+    &:hover {
+      background: none;
+    }
+  }
+
+  .events_page {
+    .container-fluid {
+      padding-left: 0;
+      padding-right: 0;
+
+      .white_bg {
+        padding: 0 40px;
+      }
+    }
+  }
+
+  .photos_page,
+  .videos_page {
+    .container-fluid {
+      padding-left: 0;
+      padding-right: 0;
+
+      .bg_black {
+        padding-left: 15px;
+      }
+
+      .grey_bg {
+        padding: 0 40px;
+      }
+    }
+  }
+
+  .tickets_page,
+  .vouchers_page {
+    .container-fluid {
+      padding-left: 0;
+      padding-right: 0;
+
+      .white_bg {
+        padding: 0 40px;
+      }
+    }
+  }
+
+  .sweepstakes_filters, .vouchers_filters {
+    .filter_icons{
+      overflow: auto;
+      display: flex;
+    }
+
+
+    h5,.filter_title{display: none;}
+  }
+}
+@media (max-width: 576px) {}
+@media (max-width: 480px) {}
+@media (max-width:320px) {}

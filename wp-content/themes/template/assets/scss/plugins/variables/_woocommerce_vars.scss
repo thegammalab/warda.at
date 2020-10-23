@@ -1,0 +1,34 @@
+$woocommerce: $theme_color1;
+$woo_primary: $theme_color1;
+$woo_secondary: $theme_color3;
+$woo_highlight: adjust-hue($woo_primary, 150deg);
+$woo_primarytext: $text_color; /**
+
+
+ * WooCommerce CSS Variables
+
+
+ */
+$woo_primarytext: desaturate(lighten($woo_primary, 50%), 18%); // Text on primary color bg
+$woo_secondarytext: desaturate(darken($woo_secondary, 60%), 21%); // Text on secondary color bg
+$woo_highlight: adjust-hue($woo_primary, 150deg); // Prices, In stock labels, sales flash
+$woo_highlightext: desaturate(lighten($woo_highlight, 50%), 18%); // Text on highlight color bg
+$woo_contentbg: #fff; // Content BG - Tabs (active state)
+$woo_subtext: #777;
+$woobox_bg: #F9F9F9;
+$select2_height: 36px;
+$woo_red_button: #ffc000;
+$message_boxbg: #eee;
+$woobox_bg: #F9F9F9;
+$wooprice-color: #030303;
+$wootitle: #000;
+$wooeditcolor: #ffc000;
+$woo-grey: #c7c7c7;
+$woo-links: $theme_color1;
+$color1: #ffcfe0;
+$text-color: #373a3c;
+$price-color: $theme_color1;
+$send-form-btn: $theme_color1;
+$footer-bg: #fae5e5;
+$footer-content-color: #afa0a0;
+$call-to-action-bg-title: $theme_color1;

@@ -1,0 +1,422 @@
+
+.page-template-template-photo-list,
+.page-template-template-photo-single, .post-type-archive-photos, .single-photos {
+  header {
+    .menu_btn {
+      background: $photos_color;
+      color: #fff;
+    }
+  }
+
+  header {
+    .navbar #main_menu ul.navbar-nav>li {
+      &.active,
+      &:hover,&:active,&:focus {
+        &>a {
+          color: $photos_color;
+        }
+      }
+      &>a{
+        &:hover,&:active,&:focus {
+          color: $photos_color;
+        }
+      }
+    }
+    
+  }
+
+  .left_sidebar .filter_title {
+    border-left: 5px solid $photos_color;
+  }
+
+  .search_bar {
+    button {
+      background: $photos_color;
+    }
+  }
+}
+
+
+.photos_page,
+.videos_page {
+  header {
+    .menu_btn {
+      background: $photos_color;
+      color: #fff;
+    }
+  }
+
+  .search_bar {
+    input {
+      background: transparent;
+      color: #fff;
+
+      &::placeholder {
+        color: #fff;
+      }
+    }
+
+    button {
+      background: $photos_color;
+    }
+  }
+
+  .filter_list {
+    li {
+      background: #3b3b3b;
+
+      a {
+        color: #fff;
+      }
+    }
+  }
+
+  .date_bar {
+    background: #3b3b3b;
+    border-left-color: $photos_color;
+
+    span {
+      color: $photos_color;
+    }
+
+    h3 {
+      color: #fff;
+    }
+  }
+
+  .ticket_box {
+    .event_date {
+      h2 {
+        font-size: 24px;
+      }
+    }
+
+    .ticket_details {
+      h3 {
+        font-size: 18px;
+      }
+    }
+  }
+
+  .photo_number h2 {
+    font-size: 30px;
+  }
+
+  .photo_date_place {
+    p {
+      font-size: 14px;
+
+      a{
+        color: #FFF;
+      }
+    }
+
+    h5 {
+      font-size: 18px;
+    }
+  }
+
+  .photo_date_place{
+    &>*{
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+
+.photo_gallery{
+  list-style: none;
+  margin: 0 -5px;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+
+  li{
+    flex: 0 0 20%;
+    max-width: 20%;
+    padding: 5px;
+    margin-bottom:0 ;
+
+    img{
+      width: 100%;
+
+      &:not(.disabled){
+        border:5px solid rgba(255,255,255,0.1);
+      }
+    }
+  }
+}
+
+
+.photos_wide{
+  margin-bottom: 30px;
+  background: #383838;
+  
+  .photos_info{
+    padding: 20px;
+    color: #FFF;
+
+    .author{
+      color: #FFF;
+      margin: 0;
+      text-transform: uppercase;
+
+      a{
+        color: #FFF;
+      }
+    }
+
+    h3{
+      font-size: 18px;
+      color: #FFF;
+      text-transform: uppercase;
+      margin-bottom: 30px;
+    }
+
+    .img_gallery{
+      display: flex;
+      list-style: none;
+      padding: 0;
+      margin: 0 -5px;
+
+      li{
+        padding: 0 5px;
+        flex: 0 0 20%;
+        margin: 0;
+        
+        a{
+          background: #222;
+          padding: 3px;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          img{
+            height: auto;
+            width: auto;
+          }
+        }
+      }
+    }
+
+    .img_gallery_more{
+      color: #FFF;
+      font-weight: 700;
+      font-size: 18px;
+      background: #222;
+      padding: 3px
+    }
+  }
+
+  .photos_img img{
+       height: 200px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .category_name{
+      color: #fff;
+      padding: 5px;
+      top: 10px;
+      left: 10px;
+      padding: 6px 9px;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 1;
+      background: $photos_color;
+      margin-bottom: 20px;
+      display: inline-block;
+      margin: 0;
+  }
+
+  &>.row{
+    margin: 0;
+
+    &>*{
+      padding: 0;
+    }
+  }
+}
+
+.homepage_events_photos {
+  background: #272727;
+  padding: 60px 0 40px;
+
+  h2 {
+    color: $white !important;
+  }
+
+  img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+}
+
+.photo_date_place {
+  bottom: 35px;
+  left: 20px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  max-width: calc(100% - 40px);
+
+  p {
+    font-weight: 500;
+    color: $white;
+    background: $theme_color1;
+    padding: 5px 10px;
+    margin-bottom: 0;
+    line-height: 1;
+    display: inline-block;
+
+    a{
+      color: #FFF;
+    }
+  }
+
+  h5 {
+    font-size: 18px;
+    color: $photos_color;
+    font-weight: 700;
+    background: $white;
+    padding: 10px;
+    line-height: 1;
+    margin-bottom: 0;
+  }
+}
+
+.photo_number {
+  top: 15px;
+  right: 15px;
+
+  h2 {
+    font-size: 36px;
+    color: $white;
+    font-weight: 800;
+    line-height: 1;
+    margin-bottom: 0;
+  }
+
+  p {
+    font-size: 18px;
+    font-weight: 600;
+    color: $white;
+  }
+}
+
+.photo_single {
+  background: #272727;
+
+  .content_area{
+    color: #FFF;
+
+    p,ul,li{
+      color: #FFF;
+    }
+  }
+
+
+  header {
+    .menu_btn {
+      background: $photos_color;
+      color: #fff;
+    }
+  }
+
+  h2 {
+    color: #fff;
+  }
+
+  .category_name {
+    color: #fff;
+    text-transform: uppercase;
+    padding: 5px;
+    font-weight: 700;
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+
+  .date_bar {
+    span {
+      color: $photos_color;
+    }
+
+    h3 {
+      color: #fff;
+    }
+  }
+
+  .related_videos {
+    background: #272727;
+
+    h3 {
+      color: #fff;
+    }
+  }
+
+  hr {
+    border-top: 1px solid #444;
+  }
+}
+
+#login_gallery{
+  position: relative;
+  top: -300px;
+
+  .btn-primary{
+    box-shadow: 0 0 40px rgba(0,0,0,1) !important;
+  }
+}
+
+.bg_black {
+  ul li {
+    color: #FFF;
+  }
+
+  .left_sidebar {
+    color: #FFF;
+
+    .filter_title {
+      background: #222222;
+      border-left: 5px solid $photos_color;
+    }
+
+    .purple_text {
+      color: $photos_color;
+    }
+
+    h5 {
+      color: #FFF;
+    }
+  }
+}
+
+
+
+#loading_gallery{
+  padding: 15px 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+
+.photos_page,
+.videos_page {
+  .container-fluid {
+    padding-left: 0;
+    padding-right: 50px;
+
+    .bg_black {
+      padding-left: 65px;
+    }
+
+    .grey_bg {
+      padding: 0 40px;
+    }
+  }
+}

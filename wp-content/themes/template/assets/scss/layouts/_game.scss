@@ -1,0 +1,27 @@
+.page-template-template-game {
+  .card_box .article_image .category_name.blue {
+    background: #5784bb !important;
+    color: #FFF !important;
+
+    &:hover {
+      background: #4877b1 !important;
+    }
+  }
+  .header .menu_btn {
+      background: #5784bb !important;
+  }
+  .header_article {
+    background: #5784bb;
+
+    h1 { color: #5784bb;}
+  }
+}
+
+.gaming_mag .card_box .article_image .category_name {
+  background: #5784bb !important;
+  color: #FFF !important;
+
+  &:hover {
+    background: #4877b1 !important
+  }
+}

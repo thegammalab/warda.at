@@ -1,0 +1,208 @@
+
+.home_voucher_section {
+  background: #d1cee8;
+  padding: 60px 0;
+
+  .ticket_details {
+    background: $white;
+
+    h3 {
+      text-transform: uppercase;
+    }
+
+    .buy_ticket {
+      background: $indigo;
+    }
+  }
+}
+
+.page-template-template-voucher-single,
+.page-template-template-vouchers-list,  
+.post-type-archive-vouchers, .tax-voucher_cat,
+.single-vouchers {
+  header .menu_btn {
+    background: $indigo;
+    color: #FFF;
+    color: #000;
+  }
+
+  header .navbar #main_menu ul.navbar-nav>li {
+    &.active,
+    &:hover,&:active,&:focus {
+      &>a {
+        color: $indigo;
+      }
+    }
+    &>a{
+      &:hover,&:active,&:focus {
+        color: $indigo;
+      }
+    }
+  }
+
+
+  .left_sidebar .filter_title {
+    border-left: 5px solid $indigo !important;
+  }
+
+  .search_bar {
+    button {
+      background: $indigo;
+    }
+  }
+}
+
+.vouchers_page {
+  .ticket_details {
+    background: #f3f3f3 !important;
+
+    .divider {
+      border-bottom: 7px dotted #fff !important;
+    }
+
+    h3 {
+      font-size: 18px;
+    }
+
+    .buy_ticket {
+      background: $indigo;
+    }
+  }
+}
+
+.voucher_indigo {
+  background: $indigo !important;
+}
+
+.voucher_single, 
+.vouchers-template-default,
+.post-type-archive-vouchers, .tax-voucher_cat,,
+.vouchers-events {
+  .left_sidebar .filter_title {
+    border-left: 5px solid $indigo !important;
+  }
+
+  header .menu_btn {
+    background: $indigo;
+    color: #FFF;
+  }
+
+  header #main_menu ul.navbar-nav li.menu-gutscheine a {
+    color: $indigo;
+  }
+
+  .header_article {
+    h1 {
+      color: $indigo;
+    }
+
+    &::before {
+      background: $indigo;
+    }
+  }
+
+  .date_bar {
+    span {
+      color: $indigo;
+    }
+  }
+
+  .map_btn {
+    background: #2e2e2c;
+    justify-content: center;
+    padding: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    min-width: 85px;
+    line-height: 1;
+
+    img {
+      margin-right: 5px;
+    }
+  }
+
+  .tag_category_names a {
+    background: $indigo;
+  }
+
+
+  .event_place {
+    h6 {
+      font-size: 16px;
+      text-transform: uppercase;
+      margin-bottom: 0;
+    }
+  }
+
+  .ticket_box {
+    .event_date {
+      h2 {
+        font-size: 24px;
+      }
+    }
+
+    .ticket_details {
+      h3 {
+        font-size: 18px;
+      }
+    }
+  }
+
+  .bordered_section {
+    border-top: 2px solid #e1e1e1;
+    padding: 30px 0;
+    margin: 40px 0;
+  }
+
+  .more_vouchers {
+    background: #f3f3f3;
+
+    .buy_ticket {
+      background: $indigo;
+    }
+  }
+
+  .content_area {
+    h3 {
+      font-weight: 600;
+    }
+
+    h4 {
+      margin-bottom: 0;
+      font-weight: 600;
+    }
+  }
+
+  .left_details {
+    list-style: none;
+    margin-bottom: 0;
+    padding-left: 0;
+
+    li {
+      margin-right: 10px;
+    }
+  }
+
+  .category_name {
+    color: #fff;
+    padding: 5px;
+    top: 10px;
+    left: 10px;
+    padding: 6px 15px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 20px;
+    display: inline-block;
+  }
+}
+
+.voucher_text {
+  color: $indigo;
+}

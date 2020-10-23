@@ -1,0 +1,260 @@
+.cat_yellow {
+  header .menu_btn {
+    background: $yellow;
+  }
+
+  .header_article {
+    h1 {
+      color: $black;
+      text-shadow: -2px -2px 0 $yellow_bg, 2px -2px 0 $yellow_bg, -2px 2px 0 $yellow_bg, 2px 2px 0 $yellow_bg;
+    }
+
+    &::before {
+      background: $yellow_bg;
+    }
+  }
+}
+
+.cat_red {
+  header .menu_btn {
+    background: $pink;
+    color: #FFF;
+  }
+
+  .header_article {
+    h1 {
+      color: $pink;
+    }
+
+    &::before {
+      background: $pink;
+    }
+  }
+}
+
+.cat_green {
+  header .menu_btn {
+    background: $green;
+    color: #FFF;
+  }
+
+  .header_article {
+    h1 {
+      color: $green;
+    }
+
+    &::before {
+      background: $green;
+    }
+  }
+}
+
+.cat_indigo {
+  header .menu_btn {
+    background: $indigo;
+    color: #FFF;
+  }
+
+  .header_article {
+    h1 {
+      color: $indigo;
+    }
+
+    &::before {
+      background: $indigo;
+    }
+  }
+}
+
+.cat_blue {
+  header .menu_btn {
+    background: $blue;
+    color: #FFF;
+  }
+
+  .header_article {
+    h1 {
+      color: $blue;
+    }
+
+    &::before {
+      background: $blue;
+    }
+  }
+}
+
+.cat_light_blue {
+  header .menu_btn {
+    background: $light_blue;
+    color: #FFF;
+  }
+
+  .header_article {
+    h1 {
+      color: $light_blue;
+    }
+
+    &::before {
+      background: $light_blue;
+    }
+  }
+}
+
+
+////////////////////////////////////////
+////////////////////////////////////////
+////////////////////////////////////////
+
+.indigo {
+  background: $indigo !important;
+  color: #FFF !important;
+
+  &:hover {
+    background: darken($indigo,5%) !important;
+  }
+}
+
+.green {
+  background: $green !important;
+  color: #FFF !important;
+
+  &:hover {
+    background: darken($green,5%) !important;
+  }
+}
+
+.pink {
+  background: $pink !important;
+  color: #FFF !important;
+
+  &:hover {
+    background: darken($pink,5%) !important;
+  }
+}
+
+.red {
+  background: $tickets_color !important;
+  color: #FFF !important;
+
+  &:hover {
+    background: darken($tickets_color,5%) !important;
+  }
+}
+
+.fuchsia {
+  background: $fuchsia !important;
+  color: #FFF !important;
+
+  &:hover {
+    background: darken($fuchsia,5%) !important;
+  }
+}
+
+.light_green {
+  background: $green !important;
+  color: #FFF !important;
+
+  &:hover {
+    background: darken($green,5%) !important;
+  }
+}
+
+.dark_green {
+  background: $dark_green !important;
+  color: #FFF !important;
+
+  &:hover {
+    background: darken($dark_green,5%) !important;
+  }
+}
+
+.green_blue {
+  background: $green_blue !important;
+  color: #FFF !important;
+
+  &:hover {
+    background: darken($green_blue,5%) !important;
+  }
+}
+
+.blue {
+  background: $blue !important;
+  color: #FFF !important;
+
+  &:hover {
+    background: darken($blue,5%) !important;
+  }
+}
+
+.light_blue {
+  background: $light_blue !important;
+  color: #000 !important;
+
+  &:hover {
+    background: darken($light_blue,5%) !important;
+  }
+}
+
+.purple {
+  background: $purple !important;
+  color: #FFF !important;
+
+  &:hover {
+    background: darken($purple,5%) !important;
+  }
+}
+
+.yellow {
+  background: $yellow !important;
+  color: #000 !important;
+
+  &:hover {
+    background: darken($yellow,5%) !important;
+  }
+}
+
+.blue_text {
+  color: $blue;
+}
+
+.light_blue_text {
+  color: $light_blue !important;
+}
+
+.yellow_text {
+  color: darken($yellow,6%);
+}
+
+.green_text {
+  color: $green_blue;
+}
+
+.purple_text {
+  color: $purple;
+}
+
+.fuchsia_text {
+  color: $fuchsia;
+}
+
+.light_green_text {
+  color: $green;
+}
+
+.pink_text {
+  color: $pink;
+}
+
+.video_section {
+  .photo_date_place h5 {
+    color: $fuchsia;
+    display: inline-block;
+    font-size: 20px;
+  }
+}
+
+.photo_date_place h5 {
+  color: $fuchsia;
+  display: inline-block;
+  font-size: 20px;
+}

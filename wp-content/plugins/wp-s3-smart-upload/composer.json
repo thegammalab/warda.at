@@ -1,0 +1,6 @@
+{
+    "require": {
+        "aws/aws-sdk-php": "3.127.0",
+        "techcrunch/wp-async-task": "dev-master"
+    }
+}

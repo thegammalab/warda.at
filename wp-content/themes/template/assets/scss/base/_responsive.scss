@@ -1,0 +1,12 @@
+@media (max-width: 1200px) {
+  @import "responsive/lg";
+}
+@media (max-width: 992px) {
+  @import "responsive/md";
+}
+@media (max-width: 768px) {
+  @import "responsive/sm";
+}
+@media (max-width: 576px) {
+  @import "responsive/xs";
+}

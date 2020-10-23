@@ -1,0 +1,125 @@
+
+//Category page
+body.category-startups {
+  header {
+    .menu_btn {
+      background:$pink !important;
+      color: $white !important;
+    }
+    
+  }
+  .header_article {
+    position:relative;
+    
+    &:before {
+        background: $black;
+    }
+
+    &:after {
+      content: "";
+      position: absolute;
+      top: 20px;
+      right: 50px;
+      width: 60px;
+      height: 60px;
+      background: url(../../../template/assets/images/microsoft-logo.png) center center;
+      background-size: cover;
+    }
+
+    h1 {
+      text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #353535;
+      color:$pink !important;
+      padding-left: 60px; padding-right: 60px;
+    }
+  }
+
+  .card_box .article_image .category_name {
+    background:$pink !important;
+    color: $white !important;
+
+    &:hover {
+      background:darken($pink,5%) !important;
+    }
+  }
+}
+
+//Single post
+.single_post_category_startups {
+  .pink {
+      color: $white !important;
+  }
+
+  header {
+    .menu_btn {
+      background: $pink !important;
+      color: $white !important;
+    }
+  }
+
+  .header_article {
+    position:relative;
+    z-index:1;
+
+    .article_categories{
+      padding-left: 60px; padding-right: 60px;
+    }
+    h1 { color: $white; padding-left: 60px; padding-right: 60px; }
+
+    &:before {
+      background: $black;
+      content:'';
+      width:100%;
+      height:300px;
+      z-index:-1;
+    }
+
+    &:after {
+      content: "";
+      position: absolute;
+      top: 20px;
+      right: 50px;
+      width: 60px;
+      height: 60px;
+      background: url(../../../template/assets/images/microsoft-logo.png) center center;
+      background-size: cover;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  body.category-startups {
+    .header_article {
+      padding-top: 65px;
+
+      h1 { padding-left: 0px; padding-right: 0px; padding-bottom: 0; }
+
+      &:after {
+        content: "";
+        position: absolute;
+        top: 5px;
+        right: calc(50% - 20px);
+        width: 40px;
+        height: 40px;
+      }
+    }
+  }
+  .single_post_category_startups {
+    .header_article {
+      padding-top: 65px;
+
+      .article_categories{
+        padding-left: 0px; padding-right: 0px;
+      }
+      h1 { padding-left: 0px; padding-right: 0px; }
+
+      &:after {
+        content: "";
+        position: absolute;
+        top: 5px;
+        right: calc(50% - 20px);
+        width: 40px;
+        height: 40px;
+      }
+    }
+  }
+}
